@@ -1,0 +1,80 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+
+.flex-header {
+    display: flex;
+    border: 5px solid #1f62de;
+    height: 125px;
+    background-color: #8cace8;
+    gap: 10px;
+}
+
+.box1, .box2, .box3 {
+    background-color: rgb(213, 164, 74);margin: 10px;
+    flex: 1;
+}
+
+.box2 {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box-item1, .box-item2 {
+    background-color: rgb(206, 97, 97);
+    flex: 1;
+}
+
+.middle-container {
+    display: flex;
+    background-color: rgb(240, 147, 113);
+    border: 5px solid rgb(234, 105, 57);
+    gap: 10px;
+    padding: 10px;
+}
+
+.left-box {
+    background-color: rgb(240, 147, 113);
+    border: 5px solid rgb(234, 105, 57);
+    height: 425px;
+    flex: 1;
+}
+
+.right-box-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: rgb(240, 147, 113);
+    gap: 10px;
+}
+
+.right-box1, .right-box2 {
+    background-color: rgb(240, 147, 113);
+    border: 5px solid rgb(234, 105, 57);
+    flex: 1;
+}
+
+.foot-container {
+    display: flex ;
+    border: 5px solid #1f62de;
+    background-color: #8cace8;
+    justify-content: space-around;
+    height: 125px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.foot-box1, .foot-box2, .foot-box3, .foot-box4 {
+    background-color: rgb(213, 164, 74);
+    flex: 1px;
+    
+}
+
+.foot-box2, .foot-box3 {
+    flex: 0.5;
+}
